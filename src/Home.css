@@ -2,4 +2,12 @@
     border-radius: 22px;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
 }
+.icon-box{
+    border-radius: 30px!important;
+    height: 300px!important;
+}
+.icon-box:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
 
