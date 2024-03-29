@@ -7,13 +7,12 @@ import "../../src/Footer.css"
 
 const MyNav = () => {
   return (
-    <nav className="">
+    <nav className="" style={{background:"#ade2ec"}}>
       <Navbar
-        bg="light"
-        expand="lg"
-        className="sticky navbar"
-        style={{ position: "fixed", zIndex: "1", top: "0"}}
-      >
+  expand="lg"
+  className="sticky navbar"
+  style={{ position: "fixed", zIndex: "1", top: "0",backgroundColor: "#dedcd7"}}
+>
         <Container>
           <Navbar.Brand className="logo ">
             <Link to="/">

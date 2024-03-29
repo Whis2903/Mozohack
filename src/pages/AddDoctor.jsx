@@ -240,7 +240,7 @@ export default function AddDoctor() {
         <section className="section container mt-4">
           <div className=" container">
             <div className="forms">
-              <div className="card">
+              <div className="card" style={{borderRadius:"33px"}}>
                 <div className="container p-4">
                   <h3 className="card-title">Add Doctor</h3>
 
@@ -286,6 +286,7 @@ export default function AddDoctor() {
                               </label>
                               <div className="col-xl-8 d-flex justify-content-center">
                                 <button
+                                 style={{borderRadius:"14px"}}
                                   type="button"
                                   onClick={handleClickQR}
                                   className=" "
@@ -435,6 +436,7 @@ export default function AddDoctor() {
                           />
                         </div>
                         <Button
+                         style={{borderRadius:"14px"}}
                           disabled={isLoading}
                           type="submit"
                           className="btn-info p-2 pe-5 ps-5 mt-4 mx-auto d-block "
@@ -449,7 +451,7 @@ export default function AddDoctor() {
             </div>
 
             <div className="forms">
-              <div className="card">
+              <div className="card" style={{borderRadius:"33px"}}>
                 <div className="container p-5">
                   <h3 className="card-title">Remove Doctor</h3>
 
@@ -473,6 +475,7 @@ export default function AddDoctor() {
                       </div>
                       <Button
                         disabled={isLoading}
+                        style={{borderRadius:"14px"}}
                         type="remove"
                         className="btn-danger p-2 pe-5 ps-5 mt-5 mx-auto d-block "
                       >

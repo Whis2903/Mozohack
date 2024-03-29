@@ -207,7 +207,7 @@ export default function AddHospital() {
         <section className="section container p-4 mt-4">
           <div className="row ">
             <div className="forms col-xl-6">
-              <div className="card">
+              <div className="card" style={{borderRadius:"33px"}}>
                 <div className="container p-4">
                   <h3 className="card-title">Add Hospital</h3>
 
@@ -255,6 +255,7 @@ export default function AddHospital() {
                           <div className="col-xl-6 d-flex justify-content-center">
                             <button
                               type="button"
+                              style={{borderRadius:"14px"}}
                               onClick={handleClickQR}
                               className=" "
                             >
@@ -326,6 +327,7 @@ export default function AddHospital() {
 
                       <Button
                         disabled={isLoading}
+                        style={{borderRadius:"14px"}}
                         type="submit"
                         className="width-75 btn-info p-2 pe-5 ps-5 align-center m-auto mt-5  mx-auto d-block"
                       >
@@ -338,7 +340,7 @@ export default function AddHospital() {
             </div>
 
             <div className="forms col-xl-6 ">
-              <div className="card pb-5">
+              <div className="card pb-5" style={{borderRadius:"33px"}}>
                 <div className="container p-4">
                   <h3 className="card-title">Remove Hospital</h3>
 
@@ -366,6 +368,7 @@ export default function AddHospital() {
 
                       <Button
                         disabled={isLoading}
+                        style={{borderRadius:"14px"}}
                         type="remove"
                         className="btn-danger my-5  p-2 pe-5 ps-5 mx-auto d-block "
                       >

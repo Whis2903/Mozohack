@@ -54,7 +54,7 @@ const [account, setAccount] = useState();
 
   return (
     <>
-      <aside id="sidebar" className="sidebar">
+      <aside id="sidebar" className="sidebar" style={{borderRadius:"0px 33px 33px 0px"}}  >
         <div className="border-bottom rounded-bottom shadow-5 mb-5">
           <Navbar.Brand className="logo mb-4 ">
             <Link to="/home">
@@ -71,7 +71,7 @@ const [account, setAccount] = useState();
         <ul className="sidebar-nav mt-4 " id="sidebar-nav">
 
         <li className="nav-item">
-            <NavLink className="nav-link " to = {`/Admin?account=${account}`}>
+            <NavLink className="nav-link " to = {`/Admin?account=${account}`} style={{borderRadius:"14px"}}>
               <i className="bi bi-grid">
                 <FaArchive/> 
               </i>
@@ -80,7 +80,7 @@ const [account, setAccount] = useState();
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link " to = {`/addHospital?account=${account}`}>
+            <NavLink className="nav-link " to = {`/addHospital?account=${account}`} style={{borderRadius:"14px"}}>
               <i className="bi bi-grid">
                 <FaHospitalAlt />
               </i>
@@ -90,7 +90,7 @@ const [account, setAccount] = useState();
           
 
           <li className="nav-item">
-            <NavLink className="nav-link" to={`/addDoctor?account=${account}`}>
+            <NavLink className="nav-link" to={`/addDoctor?account=${account}`} style={{borderRadius:"14px"}}>
               <i className="bi bi-grid">
                 <FaStethoscope />
               </i>
@@ -99,7 +99,7 @@ const [account, setAccount] = useState();
           </li>
 
           <li className="nav-item mt-4">
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link" to="/" style={{borderRadius:"14px"}}>
               <i className="bi bi-grid">
                 <FaSignOutAlt />
               </i>

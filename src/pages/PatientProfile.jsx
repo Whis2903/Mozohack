@@ -115,7 +115,7 @@ export default function PatientProfile() {
         <section className="section profile container mt-4">
           <div className="row container">
             <div className="forms col-xl-7">
-              <div className=" card h-100 container p-4">
+              <div className=" card h-100 container p-4" style={{borderRadius:"33px"}}>
                 <div className=" profile-card pt-4 d-flex flex-column align-items-center">
                   <img
                     src={profile}
@@ -237,7 +237,7 @@ export default function PatientProfile() {
             </div>
 
             <div className="forms col-xl-5">
-              <div className="card py-5 align-items-center">
+              <div className="card py-5 align-items-center" style={{borderRadius:"33px"}}>
                 <div className="card-body text-center fs-5  my-5 ">
                   <i className="bi bi-grid fs-3 text-dark me-3">
                     <FaNotesMedical />
