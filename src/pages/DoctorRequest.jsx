@@ -254,7 +254,7 @@ export default function PatientPermission() {
 
           <div className="mt-4 mb-4 container">
             <div className="forms">
-              <div className="card requests">
+              <div className="card requests" style={{borderRadius:"33px"}}>
                 <div className="card-body ">
                   <h1 className="card-title ms-5">Send Request</h1>
 
@@ -353,6 +353,7 @@ export default function PatientPermission() {
                             <Button
                               disabled={isLoading}
                               type="submit"
+                              style={{borderRadius:"14px"}}
                               className="btn btn-info mt-5 ms-5 "
                             >
                               Send

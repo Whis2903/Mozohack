@@ -204,7 +204,7 @@ export default function DoctorProfile() {
         <section className="section container px-5">
           <div className="row d-flex align-items-stretch">
             <div className="forms col-xl-7">
-              <div className="card container p-5">
+              <div className="card container p-5" style={{borderRadius:"33px"}}>
                 <div className=" p-1">
                   <img
                     src={profile}
@@ -323,7 +323,7 @@ export default function DoctorProfile() {
             </div>
 
             <div className="forms col-xl-5">
-              <div className="card py-5">
+              <div className="card py-5" style={{borderRadius:"33px"}}>
                 <div className="card-body m-4 pb-5">
                   <CChart
                     className="mt-4"

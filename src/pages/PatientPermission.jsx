@@ -270,7 +270,7 @@ export default function PatientPermission() {
         <section className="section dashboard mx-auto ms-5 me-0 pe-0 py-5 ">
           <div className="container">
             <div className="forms">
-              <div className="card requests">
+              <div className="card requests" style={{borderRadius:"33px"}}>
                 <div className="card-body mx-5 px-5 ">
                   <h1 className="card-title">Give Permission</h1>
 
@@ -326,6 +326,7 @@ export default function PatientPermission() {
                             </label>
                             <div className="col-xl-6 d-flex justify-content-center">
                               <button
+                               style={{borderRadius:"12px"}}
                                 type="button"
                                 onClick={handleClickQR}
                                 className=" "
@@ -370,6 +371,7 @@ export default function PatientPermission() {
                           <div className="col-4"></div>
                           <div className="col-8">
                             <Button
+                             style={{borderRadius:"12px"}}
                               disabled={isLoading}
                               type="submit"
                               className="btn btn-info pe-5 ps-5 ms-5 "
@@ -388,7 +390,7 @@ export default function PatientPermission() {
 
           <div className="mt-5 mb-4 container ">
             <div className="forms">
-              <div className="card overflow-auto">
+              <div className="card overflow-auto" style={{borderRadius:"33px"}}>
                 <div className="card-body">
                   <div className="row d-flex align-items-center">
                     <div className="col-xl-4">

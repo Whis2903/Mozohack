@@ -232,7 +232,7 @@ export default function Admin() {
         <section className=" py-2 px-5 bg-info-light position-relative overflow-hidden mx-5  ">
           <div className="row">
             <div className="forms col-xl-7">
-              <div className="card py-5">
+              <div className="card py-5" style={{borderRadius:"33px"}}>
                 <div className="container px-5 pt-5 pb-5">
                   <br />
                   <CChart
@@ -260,7 +260,7 @@ export default function Admin() {
             </div>
 
             <div className="forms col-xl-5 ">
-              <div className="card">
+              <div className="card" style={{borderRadius:"33px"}}>
                 <div className="container p-5">
                   <CChart
                     type="doughnut"
@@ -283,7 +283,7 @@ export default function Admin() {
               </div>
             </div>
             <div className="forms col-xl-12">
-              <div className="card">
+              <div className="card" style={{borderRadius:"33px"}}>
                 <div className="container p-5">
                   <CChart
                     type="bar"
