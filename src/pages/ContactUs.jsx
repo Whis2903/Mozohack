@@ -2,6 +2,7 @@ import React from "react";
 import MyNav from "../components/MyNav";
 import { Button, Form } from "react-bootstrap";
 import MyFooter from "../components/MyFooter";
+import "../../src/Home.css"
 
 const ContactUs = () => {
   return (
@@ -16,11 +17,11 @@ const ContactUs = () => {
           </span>
         </div>
         <div className="forms col-xl-6 mx-auto">
-          <div className="card">
-            <div className="py-3">
-              <Form className="align-center mx-auto">
+          <div className="card " style={{borderRadius:"40px"}}>
+            <div className="py-3 forms">
+              <Form className="align-center mx-auto" style={{borderRadius:"90px"}}>
                 <Form.Group
-                  className="mb-3 mt-5 mx-auto col-xl-8"
+                  className="mb-3 mt-5 mx-auto col-xl-8 "
                   controlId="formBasicEmail"
                 >
                   <Form.Label>Email address</Form.Label>
@@ -31,26 +32,21 @@ const ContactUs = () => {
                 </Form.Group>
 
                 <Form.Group
-                  className="mb-3 mx-auto col-8"
+                  className="mb-3 mx-auto col-8 forms"
                   controlId="formBasicPassword"
                 >
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
+                  <Form.Label>Subject</Form.Label>
+                  <Form.Control placeholder="Your Subject" />
                 </Form.Group>
 
                 <Form.Group
-                  className="mb-3 mx-auto col-8"
+                  className="mb-3 mx-auto col-8 mess"
                   controlId="formBasicPassword"
                 >
-                  <Form.Label>Your Message</Form.Label>
-                  <textarea
-                    id="w3review"
-                    name="w3review"
-                    rows="3"
-                    cols="34"
-                  ></textarea>
+                  <Form.Label>Message</Form.Label>
+                  <Form.Control placeholder="Your Message" />
                 </Form.Group>
-                <Form.Group className="my-5 mx-auto col-4 ">
+                <Form.Group className="my-5 mx-auto col-4 contbtn">
                   <Button variant="info" type="submit">
                     Send
                   </Button>

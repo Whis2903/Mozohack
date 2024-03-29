@@ -3,6 +3,7 @@ import "../assets/css/style.css";
 import { Nav, Container, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/img/logo/Symbol.png";
+import "../../src/Footer.css"
 
 const MyNav = () => {
   return (
