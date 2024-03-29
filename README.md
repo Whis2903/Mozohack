@@ -45,8 +45,6 @@ MediVault is a decentralized solution for Electronic Medical Records sharing sys
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [Reactjs]()
 * [Solidity]()
 * [Polygon]()
@@ -54,8 +52,7 @@ This section should list any major frameworks that you built your project using.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Setup Your Enviromnment
 
 ### Prerequisites
 
@@ -89,11 +86,6 @@ npm install
 const API_KEY = 'ENTER YOUR API';
 ```
 
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
