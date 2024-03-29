@@ -4,7 +4,7 @@
 }
 
 .icon-box {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for box-shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 
