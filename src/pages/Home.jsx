@@ -6,6 +6,7 @@ import bg from "../assets/img/slider/bgmedivault.gif";
 import { Link, useLocation } from "react-router-dom";
 import Web3 from "web3";
 import detectEthereumProvider from "@metamask/detect-provider";
+import "../../src/Home.css"
 
 const Home = () => {
   const location = useLocation();
@@ -163,7 +164,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 d-flex align-items-stretch">
-              <div className="content">
+              <div className="content" style={{borderRadius:"22px"}}>
                 <h3>Why Choose MediVault?</h3>
                 <p className="text-light">
                   Blockchain technology has a great potential for improving

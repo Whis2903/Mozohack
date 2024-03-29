@@ -5,6 +5,8 @@ import aboutImg from "../assets/img/slider/about1.jpg";
 import img1 from "../assets/img/slider/img1.jpg";
 import img2 from "../assets/img/slider/img2.jpg";
 import img3 from "../assets/img/slider/img3.jpg";
+import "../../src/About.css"
+
 const About = () => {
   return (
     <>
@@ -20,10 +22,10 @@ const About = () => {
                     <img
                       src={aboutImg}
                       alt="aboutImg"
-                      className="col-xl-6"
+                      className="col-xl-6 imgg"
                     />
                     <div className="col-xl-5 p-4 pt-5">
-                      <h1 className=" my-4">How can we help you?</h1>
+                      <h1 className="my-4">How can we help you?</h1>
                       <p className="">
                         We seek to put the patients in control of their medical
                         data, giving them the power to share the single, most
@@ -38,7 +40,7 @@ const About = () => {
           </div>
 
           <section id="about" className="about">
-            <div className="bg-danger bg-opacity-50 p-5 text-center">
+            <div className="bg-danger bg-opacity-50 p-5 text-center seperatorr">
               <h1>The Problem</h1>
               <p>
                 An electronic health record is defined as an electronic version
@@ -109,7 +111,7 @@ const About = () => {
           </section>
 
           <section id="about" className="about">
-            <div className="bg-success bg-opacity-50 p-5 mt-5 text-center">
+            <div className="bg-success bg-opacity-50 p-5 mt-5 text-center seperatorr">
               <h1>Our Solutions</h1>
               <p>
                 MediVault provides a decentralized easy to use Electronic
@@ -183,7 +185,7 @@ const About = () => {
           </section>
 
           <div className="my-5">
-            <div className="text-center py-5 px-3 bg-info bg-opacity-50">
+            <div className="text-center py-5 px-3 bg-info bg-opacity-50 seperatorr">
               <h1 className="">Our Community</h1>
               <p className="my-4 w-75 text-center mx-auto text-muted">
                 Welcome to the future of healthcare! Our medical health record
@@ -194,11 +196,11 @@ const About = () => {
             </div>
             <div className="features m-5">
               <div className="mx-5 forms row d-flex justify-content-evenly">
-                <div className="col-xl-4 w-25 card requests px-4 py-3">
+                <div className="col-xl-4 w-25 card requests px-4 py-3 co">
                   <img
                     src={img1}
                     alt="aboutImg"
-                    className="rounded-top"
+                    className="rounded-top imgg"
                     height="200px"
                   />
                   <h4 className="fw-bold py-4">Collaboration</h4>
@@ -208,11 +210,11 @@ const About = () => {
                     medical health record.{" "}
                   </p>
                 </div>
-                <div className="col-xl-4 w-25 card requests px-4 py-3">
+                <div className="col-xl-4 w-25 card requests px-4 py-3 co">
                   <img
                     src={img2}
                     alt="aboutImg"
-                    className="rounded-top"
+                    className="rounded-top imgg"
                     height="200px"
                   />
                   <h4 className="fw-bold py-4">Security</h4>
@@ -222,11 +224,11 @@ const About = () => {
                     health records.
                   </p>
                 </div>
-                <div className="col-xl-4 w-25 card requests px-4 py-3">
+                <div className="col-xl-4 w-25 card requests px-4 py-3 co">
                   <img
                     src={img3}
                     alt="aboutImg"
-                    className="rounded-top"
+                    className="rounded-top imgg"
                     height="200px"
                   />
                   <h4 className="fw-bold py-4">Communication</h4>
