@@ -210,7 +210,7 @@ export default function HospitalProfile() {
                     />
                   </div>
                   <span>{Hospitaldata.length}</span>
-                  <p>Registerd Hospitals</p>
+                  <p>Registered Hospitals</p>
                 </div>
               </Link>
 

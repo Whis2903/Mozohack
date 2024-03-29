@@ -132,7 +132,7 @@ const Home = () => {
                 marginLeft: "50px",
               }}
             >
-              Make Your Medical Record MoreSecure.
+              Make Your Medical Record More Secure.
               <br /> Be the main controller of your medical record.
             </p>
             <div
@@ -144,7 +144,7 @@ const Home = () => {
               }}
             >
               <Link className="btn bg-light my-5 fs-5 d-block" to="/dashboard">
-                Get Start >
+                Get Started 
               </Link>
             </div>
           </div>
@@ -177,7 +177,7 @@ const Home = () => {
                 </p>
                 <div className="text-center">
                   <Link to="/about" className="more-btn">
-                    Learn More >
+                    Learn More 
                   </Link>
                 </div>
               </div>
@@ -256,7 +256,7 @@ const Home = () => {
                   />
                 </div>
                 <span>{Hospitaldate.length}</span>
-                <p>Registerd Hospitals</p>
+                <p>Registered Hospitals</p>
               </div>
             </Link>
 
