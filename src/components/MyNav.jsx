@@ -11,7 +11,7 @@ const MyNav = () => {
       <Navbar
   expand="lg"
   className="sticky navbar"
-  style={{ position: "fixed", zIndex: "1", top: "0",backgroundColor: "#e6ebf2"}}
+  style={{ position: "fixed", zIndex: "1", top: "0",backgroundColor: "#eee"}}
 >
         <Container>
           <Navbar.Brand className="logo ">

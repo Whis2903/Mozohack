@@ -133,8 +133,9 @@ const Home = () => {
                 marginLeft: "50px",
               }}
             >
-              Make Your Medical Record More Secure.
-              <br /> Be the main controller of your medical record.
+              Better care starts here. Take charge of your health data with MediVault.
+              <br /> Secure, private, and accessible Electronic Health Records.
+              <br /> Your data, your control.
             </p>
             <div
               className="homeBtn "
