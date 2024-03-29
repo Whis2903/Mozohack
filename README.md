@@ -77,7 +77,7 @@ git clone https://github.com/your_username_/Project-Name.git
 2. Install NPM packages
 
 ```sh
-npm install
+npm install --legacy-peer-deps
 ```
 
 3. Enter your API in `config.js`
@@ -111,9 +111,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See [LICENSE](https://github.com/Sahilopl/MOZOHACK/blob/main/LICENSE.md) for more information.
 
-## Authors
-
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
 
 ## Acknowledgements
 
