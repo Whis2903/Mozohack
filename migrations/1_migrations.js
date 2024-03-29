@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef
-var MedRecChain = artifacts.require('./MedRecChain.sol');
+var MediVault = artifacts.require('./MediVault.sol');
 module.exports = function(deployer) {
-  deployer.deploy(MedRecChain);
+  deployer.deploy(MediVault);
 };

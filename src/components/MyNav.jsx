@@ -42,14 +42,15 @@ const MyNav = () => {
                     <span>About</span>
                   </NavLink>
                 </li>
-                <li className="nav-item me-5">
-                  <NavLink className="page-scroll" to="/contact">
-                    <span>Contact Us</span>
-                  </NavLink>
-                </li>
+                
                 <li className="nav-item me-5">
                   <NavLink className="page-scroll" to="/dashboard">
                     <span>Dashboard</span>
+                  </NavLink>
+                </li>
+                <li className="nav-item me-5">
+                  <NavLink className="page-scroll" to="/contact">
+                    <span>Contact Us</span>
                   </NavLink>
                 </li>
               </ul>

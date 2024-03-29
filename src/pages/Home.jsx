@@ -44,7 +44,7 @@ const Home = () => {
   //get Contract
   useEffect(() => {
     const loadcontract = async () => {
-      const contractfile = await fetch("/contracts/MedRecChain.json");
+      const contractfile = await fetch("/contracts/MediVault.json");
       const convert = await contractfile.json();
       const networkid = await wEb3.web3.eth.net.getId();
       const networkDate = convert.networks[networkid];
@@ -196,7 +196,7 @@ const Home = () => {
                       />
                       <h4>Based on Blockchain</h4>
                       <p>
-                        The entire system of MedRecChain is based on blockchain
+                        The entire system of MediVault is based on blockchain
                         technology, making it practically secure.
                       </p>
                     </div>
@@ -212,7 +212,7 @@ const Home = () => {
                       />
                       <h4>Smart Contracts</h4>
                       <p>
-                        MedRecChain is a smart contract-based organization,
+                        MediVault is a smart contract-based organization,
                         making it transparent to the public.
                       </p>
                     </div>

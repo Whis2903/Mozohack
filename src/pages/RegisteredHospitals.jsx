@@ -38,7 +38,7 @@ export default function RegisteredHospitals(props) {
 
   useEffect(() => {
     const loadContract = async () => {
-      const contractFile = await fetch("/contracts/MedRecChain.json");
+      const contractFile = await fetch("/contracts/MediVault.json");
       const convert = await contractFile.json();
       const networkId = await wEb3.web3.eth.net.getId();
       const networkData = convert.networks[networkId];
