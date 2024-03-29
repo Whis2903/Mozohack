@@ -144,7 +144,7 @@ const Home = () => {
                 fontSize: "20px",
               }}
             >
-              <Link className="btn bg-light my-5 fs-5 d-block" to="/dashboard">
+              <Link className="btn bg-light my-5 fs-5 d-block glow-hover" to="/dashboard">
                 Get Started 
               </Link>
             </div>

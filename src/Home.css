@@ -2,4 +2,22 @@
     border-radius: 22px;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
 }
-
+.glow-hover {
+    transition: box-shadow 0.4s ease;
+  }
+  
+  .glow-hover:hover {
+    animation: glow 1.5s infinite alternate;
+    box-shadow: 0 0 10px #51cfe8, 0 0 20px #51cfe8, 0 0 30px #51cfe8; /* Change to desired color on hover */
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px #51cfe8, 0 0 20px #51cfe8, 0 0 30px #51cfe8; /* Change to desired color on hover */
+    }
+    to {
+      box-shadow: 0 0 20px #51cfe8, 0 0 30px #51cfe8, 0 0 40px #51cfe8; /* Change to desired color on hover */
+    }
+  }
+  
+  

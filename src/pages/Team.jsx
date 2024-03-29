@@ -71,7 +71,7 @@ const Team = () => {
              <div className="icon">
                 <img src="https://fortuna-mavericks.vercel.app/static/media/vishal.f2ceb959abd147b9442d.png" className="proff"/>
               </div>
-              <h4 className="titlee">Vishal Mohan Nair</h4>
+              <h4 className="titlee">Vishal Nair</h4>
               <p className="subb">Developer{" "}
               </p> 
             </div>

@@ -185,15 +185,6 @@ const About = () => {
           </section>
 
           <div className="my-5">
-            <div className="text-center py-5 px-3 bg-info bg-opacity-50 seperatorr">
-              <h1 className="">Our Community</h1>
-              <p className="my-4 w-75 text-center mx-auto text-muted divtext">
-                Welcome to the future of healthcare! Our medical health record
-                platform, powered by blockchain, ethereum, and other
-                state-of-the-art technologies, is changing the way medical
-                information is stored and shared.
-              </p>
-            </div>
             <div className="features m-5">
               <div className="mx-5 forms row d-flex justify-content-evenly">
                 <div className="col-xl-4 w-25 card requests px-4 py-3 co">
