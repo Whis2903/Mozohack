@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MyFooter from "../components/MyFooter";
 import MyNav from "../components/MyNav";
 import aboutImg from "../assets/img/slider/about1.jpg";
