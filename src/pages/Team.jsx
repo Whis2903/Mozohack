@@ -23,16 +23,16 @@ const Team = () => {
     // Your existing logic for handling different roles
     switch (role) {
       case 1:
-        window.location.href = "/Admin";
+        window.location.href = "https://www.linkedin.com/in/aditya-verma-real/";
         break;
       case 2:
-        window.location.href = "/hospitalProfile";
+        window.location.href = "https://www.linkedin.com/in/vishal-mohan-nair-6130a1177/";
         break;
       case 3:
-        window.location.href = "/DoctorProfile";
+    window.location.href = "https://www.linkedin.com/in/adityasankar-sengupta";
         break;
       case 4:
-        window.location.href = "/PatientProfile";
+        window.location.href = "https://www.linkedin.com/in/sahil-adhikari-57b445250/";
         break;
       default:
         break;
