@@ -63,7 +63,7 @@ const [account, setAccount] = useState();
                 style={{ height: "50px", marginRight: "5px" }}
               />
             </Link>
-            <span className="text-dark">MedRecChain</span>
+            <span className="text-dark">MediVault</span>
           </Navbar.Brand>
         </div>
         <ul className="sidebar-nav mt-4 " id="sidebar-nav">

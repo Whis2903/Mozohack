@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract MedRecChain is AccessControl {
+contract MediVault is AccessControl {
     //ROLES
     bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
     bytes32 public constant HOSPITAL_ROLE = keccak256("HOSPITAL_ROLE");

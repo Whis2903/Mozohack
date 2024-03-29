@@ -42,7 +42,7 @@ export default function RegisteredDoctors(props) {
   ///// get Contract
   useEffect(() => {
     const loadcontract = async () => {
-      const contractfile = await fetch("/contracts/MedRecChain.json");
+      const contractfile = await fetch("/contracts/MediVault.json");
       const convert = await contractfile.json();
       const networkid = await wEb3.web3.eth.net.getId();
       const networkDate = convert.networks[networkid];

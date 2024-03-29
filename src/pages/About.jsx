@@ -112,7 +112,7 @@ const About = () => {
             <div className="bg-success bg-opacity-50 p-5 mt-5 text-center">
               <h1>Our Solutions</h1>
               <p>
-                MedRecChain provides a decentralized easy to use Electronic
+                MediVault provides a decentralized easy to use Electronic
                 Medical Record system(EMR). It is a free web application
                 providing a feature rich as well as interactive UI making it
                 easy to use.
