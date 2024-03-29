@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://mozohack.vercel.app/static/media/Symbol.ba32e43bbfd47eac5b56.png">
+  <a href="https://raw.githubusercontent.com/Whis2903/Mozohack/main/src/assets/img/logo/Symbol.png?token=GHSAT0AAAAAACQGBV43H6HFSMD2XKY7YWVIZQGY3HA">
     <img src="" alt="Logo" width="80" height="80">
   </a>
 
