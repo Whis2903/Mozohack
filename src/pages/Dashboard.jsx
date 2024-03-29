@@ -3,6 +3,7 @@ import MyNav from "../components/MyNav";
 import MyFooter from "../components/MyFooter.jsx";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+import "../../src/Home.css"
 
 
 import Web3 from "web3";

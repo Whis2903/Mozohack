@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MyFooter = () => {
   return (
-    <div className="" id="footer">
+    <div className="rou" id="footer">
       <div className=" copy-right">
         <div className="icons-container">
           

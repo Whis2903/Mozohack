@@ -3,7 +3,6 @@ import logo from "../assets/img/logo/Symbol.png";
 import { Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import { FaHospitalAlt, FaSignOutAlt, FaStethoscope , FaArchive } from "react-icons/fa";
-import { BsQuestionCircleFill } from "react-icons/bs";
 
 import Web3 from "web3";
 import detectEthereumProvider from '@metamask/detect-provider'
