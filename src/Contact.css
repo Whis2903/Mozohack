@@ -1,0 +1,13 @@
+
+.forms .form-control {
+  height: 40px;
+  border-radius: 10px; /* Adjust the height value as needed */
+}
+.mess .form-control {
+  resize: vertical;
+  border-radius: 10px; /* Adjust the height value as needed */
+}
+
+.contbtn button {
+  border-radius: 12px!important;
+}

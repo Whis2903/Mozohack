@@ -1,0 +1,12 @@
+.footer{
+    font-weight: bold;
+    font-size: 16px!important;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+.rou{
+    border-radius: 40px 40px 0px 0px!important;
+}
+.navbar{
+    border-radius: 0px 0px 40px 40px !important;
+}
