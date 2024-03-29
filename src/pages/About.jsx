@@ -144,7 +144,7 @@ const About = () => {
                     <p className="description">
                       The application used IPFS technology for storage of
                       patient's data. Every patient can control who can access
-                      their data. Only registerd Organizations and verified
+                      their data. Only registered Organizations and verified
                       Medical Institute can access your data.
                     </p>
                   </div>
@@ -159,7 +159,7 @@ const About = () => {
                       For a Medical Institute to participate in this shared
                       system, it need to be verified by one of the admins. Same
                       goes for the Organizations. They require proper medical
-                      and identity license to be succesfully registerd.
+                      and identity license to be succesfully registered.
                     </p>
                   </div>
                   <div className="icon-box">
@@ -169,7 +169,7 @@ const About = () => {
                     </div>
                     <h4 className="title">Non Profit</h4>
                     <p className="description">
-                      MedRecChain is a free to use, non profit system. One does
+                      MediVault is a free to use, non profit system. One does
                       not need to buy this software. It is available for
                       everyone. There are some public open feautes which can be
                       accessed by anyone, be it admin, owner or someone visiting
