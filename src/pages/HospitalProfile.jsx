@@ -254,7 +254,7 @@ export default function HospitalProfile() {
         </section>
 
         <section className="section forms container px-5">
-          <div className="card w-100 mx-auto align-center h-100">
+          <div className="card w-100 mx-auto align-center h-100" style={{borderRadius:"33px"}}>
             <div className="container  p-4">
               <div className=" p-1">
                 <img
@@ -314,7 +314,7 @@ export default function HospitalProfile() {
           </div>
           <div className="row">
             <div className="col-xl-8">
-              <div className="card mx-auto align-center p-4">
+              <div className="card mx-auto align-center p-4" style={{borderRadius:"33px"}}>
                 <CChart
                   type="bar"
                   data={{
@@ -336,7 +336,7 @@ export default function HospitalProfile() {
             </div>
 
             <div className="col-xl-4">
-              <div className="card mx-auto align-center">
+              <div className="card mx-auto align-center" style={{borderRadius:"33px"}}>
                 <div className="container p-5">
                   <CChart
                     className="mb-4"

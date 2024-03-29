@@ -180,7 +180,7 @@ export default function AddPatient() {
           <section className="section dashboard">
             <div className="p-5 container">
               <div className="forms">
-                <div className="card requests">
+                <div className="card requests" style={{borderRadius:"33px"}}>
                   <div className="card-body">
                     <h1 className="card-title">Add Patient</h1>
                     <form onSubmit={handleSubmit} className="container">
@@ -234,6 +234,7 @@ export default function AddPatient() {
                                     <div className="col-xl-8 d-flex justify-content-center">
                                       <button
                                         type="button"
+                                        style={{borderRadius:"14px"}}
                                         onClick={handleClickQR}
                                         className=" "
                                       >
@@ -431,6 +432,7 @@ export default function AddPatient() {
 
                                 <Button
                                   disabled={isLoading}
+                                  style={{borderRadius:"14px"}}
                                   type="submit"
                                   className="btn btn-info mt-4 d-block  mx-auto"
                                 >

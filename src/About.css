@@ -14,3 +14,11 @@
 .divtext{
     font-weight: bold;
 }
+@keyframes glow {
+    from {
+      box-shadow: 0 0 10px #51cfe8, 0 0 20px #51cfe8, 0 0 30px #51cfe8; /* Change to desired color on hover */
+    }
+    to {
+      box-shadow: 0 0 20px #51cfe8, 0 0 30px #51cfe8, 0 0 40px #51cfe8; /* Change to desired color on hover */
+    }
+  }
