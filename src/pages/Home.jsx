@@ -215,8 +215,7 @@ const Home = () => {
                       />
                       <h4>Smart Contracts</h4>
                       <p>
-                        MediVault is a smart contract-based organization,
-                        making it transparent to the public.
+                        Secure & Transparent:  Smart contracts ensure your data is handled according to your set permissions.
                       </p>
                     </div>
                   </div>
