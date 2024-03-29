@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 import { Icon } from "@iconify/react";
 import MyNav from "../components/MyNav";
 import MyFooter from "../components/MyFooter.jsx";
-import bg from "../assets/img/slider/bg.webp";
+import bg from "../assets/img/slider/bgmedivault.gif";
 import { Link, useLocation } from "react-router-dom";
 import Web3 from "web3";
 import detectEthereumProvider from "@metamask/detect-provider";
@@ -155,7 +155,7 @@ const Home = () => {
             backgroundImage: `url(${bg})`,
             backgroundRepeat: "no-repeat",
             marginTop: "25px",
-            backgroundSize: "540px 510px",
+            backgroundSize: "660px 367px",
           }}
         ></div>
       </div>
