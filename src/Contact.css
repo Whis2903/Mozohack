@@ -8,6 +8,6 @@
   border-radius: 10px; /* Adjust the height value as needed */
 }
 
-.contbtn{
-  border-radius: 90px!important;
+.contbtn button {
+  border-radius: 12px!important;
 }

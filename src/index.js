@@ -29,6 +29,8 @@ import PreviewRecordForDoctor from "./pages/PreviewRecordForDoctor";
 import ShowAllDocrorsForHospital from "./pages/ShowAllDocrorsForHospital";
 import ShowAllPatientForHospital from "./pages/ShowAllPatientForHospital";
 import AllRequestes from "./pages/AllRequestes";
+import Team from "./pages/Team.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -128,7 +130,11 @@ const router = createBrowserRouter([
     element: <AddRecord />,
     errorElement: <ErrorPage />,
   },
-
+  {
+    path: "/team",
+    element: <Team />,
+    errorElement: <ErrorPage />,
+  },
   {
     path: "/doctorProfile",
     element: <DoctorProfile />,
