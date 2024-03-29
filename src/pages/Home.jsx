@@ -123,7 +123,8 @@ const Home = () => {
                 marginTop: "10px",
               }}
             >
-              Your Health Is Our Top Priority.
+              Better Care for You and Your Data
+              <br /> Starts Right Here
             </h2>
             <p
               style={{
@@ -133,20 +134,20 @@ const Home = () => {
                 marginLeft: "50px",
               }}
             >
-              Better care starts here. Take charge of your health data with MediVault.
-              <br /> Secure, private, and accessible Electronic Health Records.
+              Take charge of your health and data with MediVault.
               <br /> Your data, your control.
+              <br /> Secure, private, and accessible Electronic Health Records.
             </p>
             <div
-              className="homeBtn "
+              className="homeBtn"
               style={{
                 textAlign: "center",
                 margin: " 20px 50px",
                 fontSize: "20px",
               }}
             >
-              <Link className="btn bg-light my-5 fs-5 d-block glow-hover" to="/dashboard">
-                Get Started 
+              <Link className="btn bg-light my-5 fs-6 d-block glow-hover" to="/dashboard">
+                Get Started Today
               </Link>
             </div>
           </div>
@@ -156,7 +157,7 @@ const Home = () => {
           style={{
             backgroundImage: `url(${bg})`,
             backgroundRepeat: "no-repeat",
-            marginTop: "25px",
+            marginTop: "45px",
             backgroundSize: "540px 400px",
           }}
         ></div>
