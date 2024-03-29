@@ -26,7 +26,7 @@ const About = () => {
                     />
                     <div className="col-xl-5 p-4 pt-5">
                       <h1 className="my-4">How can we help you?</h1>
-                      <p className="">
+                      <p>
                         We seek to put the patients in control of their medical
                         data, giving them the power to share the single, most
                         comprehensive version of their record, with every
@@ -42,7 +42,7 @@ const About = () => {
           <section id="about" className="about">
             <div className="bg-danger bg-opacity-50 p-5 text-center seperatorr">
               <h1>The Problem</h1>
-              <p>
+              <p className="divtext">
                 An electronic health record is defined as an electronic version
                 of a medical history of the patient as kept by the health care
                 provider. But it consists of some major security and privacy
@@ -113,7 +113,7 @@ const About = () => {
           <section id="about" className="about">
             <div className="bg-success bg-opacity-50 p-5 mt-5 text-center seperatorr">
               <h1>Our Solutions</h1>
-              <p>
+              <p className="divtext">
                 MediVault provides a decentralized easy to use Electronic
                 Medical Record system(EMR). It is a free web application
                 providing a feature rich as well as interactive UI making it
@@ -187,7 +187,7 @@ const About = () => {
           <div className="my-5">
             <div className="text-center py-5 px-3 bg-info bg-opacity-50 seperatorr">
               <h1 className="">Our Community</h1>
-              <p className="my-4 w-75 text-center mx-auto text-muted">
+              <p className="my-4 w-75 text-center mx-auto text-muted divtext">
                 Welcome to the future of healthcare! Our medical health record
                 platform, powered by blockchain, ethereum, and other
                 state-of-the-art technologies, is changing the way medical

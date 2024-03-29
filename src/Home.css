@@ -3,13 +3,3 @@
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
 }
 
-.icon-box {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-
-
-.icon-box:hover{
-  transform: translateY(-5px);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-

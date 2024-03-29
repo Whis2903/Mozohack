@@ -29,7 +29,7 @@ const Team = () => {
         window.location.href = "https://www.linkedin.com/in/vishal-mohan-nair-6130a1177/";
         break;
       case 3:
-    window.location.href = "https://www.linkedin.com/in/adityasankar-sengupta";
+        window.location.href = "https://www.linkedin.com/in/adityasankar-sengupta/";
         break;
       case 4:
         window.location.href = "https://www.linkedin.com/in/sahil-adhikari-57b445250/";
@@ -53,49 +53,49 @@ const Team = () => {
           </span>
           <div className="entity row forms d-flex justify-content-evenly">
             <div
-              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 tbox"
               onClick={() => onClick(1)}
             >
               <div className="icon">
-                <Icon icon="eos-icons:admin" className="i" />
+                <img src="https://fortuna-mavericks.vercel.app/static/media/aditya.35e047cdfb4aae45c591.png" className="proff"/>
               </div>
-              <h4 className="">Aditya Verma</h4>
+              <h4 className="titlee">Aditya Verma</h4>
               <p className="subb">Developer{" "}
               </p>
             </div>
 
             <div
-              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 tbox"
               onClick={() => onClick(2)}
             >
-              <div className="icon">
-                <Icon icon="healthicons:hospital-outline" className="i" />
+             <div className="icon">
+                <img src="https://fortuna-mavericks.vercel.app/static/media/vishal.f2ceb959abd147b9442d.png" className="proff"/>
               </div>
-              <h4 className="">Vishal Mohan Nair</h4>
+              <h4 className="titlee">Vishal Mohan Nair</h4>
               <p className="subb">Developer{" "}
               </p> 
             </div>
 
             <div
-              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 tbox"
               onClick={() => onClick(3)}
             >
               <div className="icon">
-                <Icon icon="healthicons:doctor-male" className="i" />
+                <img src="https://fortuna-mavericks.vercel.app/static/media/shanky.c5e9564f3c6252f01621.png" className="proff"/>
               </div>
-              <h4 className="">Adityasankar</h4>
+              <h4 className="titlee">Adityasankar</h4>
               <p className="subb">Developer{" "}
               </p>
             </div>
 
             <div
-              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 tbox"
               onClick={() => onClick(4)}
             >
               <div className="icon">
-                <Icon icon="mdi:patient" className="i" />
+                <img src="https://fortuna-mavericks.vercel.app/static/media/sahil.af2de5e51f5e5ccaf098.png" className="proff"/>
               </div>
-              <h4 className="">Sahil Adhikari</h4>
+              <h4 className="titlee">Sahil Adhikari</h4>
               <p className="subb">Developer{" "}
               </p>
             </div>

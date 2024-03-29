@@ -4,8 +4,9 @@
   border-radius: 10px; /* Adjust the height value as needed */
 }
 .mess .form-control {
-  resize: vertical;
-  border-radius: 10px; /* Adjust the height value as needed */
+  border-radius: 10px;
+  height: 150px;
+  font-size: 14px; /* Adjust the height value as needed */
 }
 
 .contbtn button {

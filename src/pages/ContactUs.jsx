@@ -53,7 +53,7 @@ const ContactUs = () => {
                   controlId="formBasicPassword"
                 >
                   <Form.Label>Message</Form.Label>
-                  <Form.Control placeholder="Your Message" />
+                  <Form.Control as="textarea" placeholder="Your Message" />
                 </Form.Group>
                 <Form.Group className="my-5 mx-auto col-4 contbtn">
                   <Button variant="info" type="submit">

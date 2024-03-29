@@ -12,7 +12,7 @@ const MyNav = () => {
         bg="light"
         expand="lg"
         className="sticky navbar"
-        style={{ position: "fixed", zIndex: "1", top: "0" }}
+        style={{ position: "fixed", zIndex: "1", top: "0"}}
       >
         <Container>
           <Navbar.Brand className="logo ">
@@ -21,7 +21,7 @@ const MyNav = () => {
                 src={logo}
                 alt="Logo"
                 style={{
-                  height: "50px",
+                  height: "60px",
                   marginRight: "10px",
                   marginBottom: "7px",
                 }}
@@ -31,31 +31,31 @@ const MyNav = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="position-relative">
-            <Nav className="me-5 position-absolute end-0 ">
+            <Nav className="me-5 position-absolute end-0">
               <ul id="nav" className="me-5 navbar-nav ml-auto  ">
-                <li className="nav-item active me-5 ">
-                  <NavLink className="page-scroll" to="/">
+                <li className="nav-item active me-5">
+                  <NavLink className="page-scroll nvv" to="/">
                     <span>Home</span>
                   </NavLink>
                 </li>
                 <li className="nav-item me-5">
-                  <NavLink className="page-scroll" to="/about">
+                  <NavLink className="page-scroll nvv" to="/about">
                     <span>About</span>
                   </NavLink>
                 </li>
                 
                 <li className="nav-item me-5">
-                  <NavLink className="page-scroll" to="/dashboard">
+                  <NavLink className="page-scroll nvv" to="/dashboard">
                     <span>Dashboard</span>
                   </NavLink>
                 </li>
                 <li className="nav-item me-5">
-                  <NavLink className="page-scroll" to="/team">
+                  <NavLink className="page-scroll nvv" to="/team">
                     <span>Our Team</span>
                   </NavLink>
                 </li>
                 <li className="nav-item me-5">
-                  <NavLink className="page-scroll" to="/contact">
+                  <NavLink className="page-scroll nvv" to="/contact">
                     <span>Contact Us</span>
                   </NavLink>
                 </li>
