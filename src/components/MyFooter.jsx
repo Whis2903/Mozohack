@@ -1,6 +1,7 @@
 import React from "react";
-import { Icon } from '@iconify/react';
+import "../../src/Footer.css"
 import { Link } from "react-router-dom";
+
 const MyFooter = () => {
   return (
     <div className="" id="footer">
@@ -8,12 +9,12 @@ const MyFooter = () => {
         <div className="icons-container">
           
         </div>
-        <div className=" text-center small py-3">
+        <div className=" text-center small py-3 footer">
           © Copyright
-          <Link to="/home" className="fs-6 fw-bold text-info ms-1">
+          <Link target="_blank" rel="noreferrer" to="https://github.com/Whis2903/Mozohack" className="fs-6 fw-bold text-info ms-1 footer">
           MediVault
           </Link>
-          . All Rights Reserved
+          . Team Mavericks
         </div>
 
       </div>
