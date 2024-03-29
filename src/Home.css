@@ -2,19 +2,4 @@
     border-radius: 22px;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
 }
-.icon-box{
-    border-radius: 30px!important;
-    height: 260px!important;
-}
-.forms .form-control {
-    height: 40px;
-    border-radius: 10px; /* Adjust the height value as needed */
-  }
-  .mess .form-control {
-    resize: vertical;
-    border-radius: 10px; /* Adjust the height value as needed */
-  }
-  
-.contbtn{
-    border-radius: 90px!important;
-}
+

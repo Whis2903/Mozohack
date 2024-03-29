@@ -3,7 +3,7 @@ import MyNav from "../components/MyNav";
 import MyFooter from "../components/MyFooter.jsx";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
-import "../../src/Home.css"
+import "../../src/Dash.css"
 
 
 import Web3 from "web3";
@@ -53,7 +53,7 @@ const Dashboard = () => {
           </span>
           <div className="entity row forms d-flex justify-content-evenly">
             <div
-              className="col-xl-5 icon-box card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
               onClick={() => onClick(1)}
             >
               <div className="icon">
@@ -67,7 +67,7 @@ const Dashboard = () => {
             </div>
 
             <div
-              className="col-xl-5 icon-box card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
               onClick={() => onClick(2)}
             >
               <div className="icon">
@@ -81,7 +81,7 @@ const Dashboard = () => {
             </div>
 
             <div
-              className="col-xl-5 icon-box card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
               onClick={() => onClick(3)}
             >
               <div className="icon">
@@ -95,7 +95,7 @@ const Dashboard = () => {
             </div>
 
             <div
-              className="col-xl-5 icon-box card requests p-4 py-5 bg-opacity-50 "
+              className="col-xl-5 icon-box icon-boxx card requests p-4 py-5 bg-opacity-50 "
               onClick={() => onClick(4)}
             >
               <div className="icon">

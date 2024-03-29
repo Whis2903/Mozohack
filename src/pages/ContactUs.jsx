@@ -2,7 +2,7 @@ import React from "react";
 import MyNav from "../components/MyNav";
 import { Button, Form } from "react-bootstrap";
 import MyFooter from "../components/MyFooter";
-import "../../src/Home.css"
+import "../../src/Contact.css"
 
 const ContactUs = () => {
   return (
@@ -18,10 +18,19 @@ const ContactUs = () => {
         </div>
         <div className="forms col-xl-6 mx-auto">
           <div className="card " style={{borderRadius:"40px"}}>
-            <div className="py-3 forms">
+            <div className="py-4 forms">
               <Form className="align-center mx-auto" style={{borderRadius:"90px"}}>
+                
                 <Form.Group
-                  className="mb-3 mt-5 mx-auto col-xl-8 "
+                  className="mb-3 mt-5 mx-auto col-xl-8"
+                  controlId="formBasicEmail"
+                >
+                  <Form.Label>Your Name</Form.Label>
+                  <Form.Control type="email" placeholder="Enter your full name" />
+                </Form.Group>
+
+                <Form.Group
+                  className="mb-3 mt-3.5 mx-auto col-xl-8 "
                   controlId="formBasicEmail"
                 >
                   <Form.Label>Email address</Form.Label>
