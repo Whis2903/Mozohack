@@ -25,7 +25,7 @@ const MyNav = () => {
                   marginBottom: "7px",
                 }}
               />
-              <span className="text-dark">MedRecChain</span>
+              <span className="text-dark">MediVault</span>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

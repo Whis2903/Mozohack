@@ -164,7 +164,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-4 d-flex align-items-stretch">
               <div className="content">
-                <h3>Why Choose MedRecChain?</h3>
+                <h3>Why Choose MediVault?</h3>
                 <p className="text-light">
                   Blockchain technology has a great potential for improving
                   efficiency, security and privacy of Electronic Health Records
